@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Q7 {
+    public static void main(String args[])
+    {
+        Scanner scr=new Scanner(System.in);
+        
+        int a=scr.nextInt();
+
+        float b=scr.nextFloat();
+
+        char c=scr.next().charAt(0);
+
+        System.out.println("The integer value:" +a);
+
+        System.out.println("The floating point value:"+b);
+
+        System.out.println("The character value:"+c);
+    }
+
+    
+}
